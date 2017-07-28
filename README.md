@@ -8,7 +8,7 @@ Uses the AutoHotKey open-source software for windows to automate keypresses. Att
 
 ---
 
-##The shortcut keys:
+## The shortcut keys:
 
 While in udemy.com with the Mozilla Firefox browswer, open a course and begin absorbing the content videos. 
 
@@ -20,7 +20,7 @@ To go back 15 seconds, type: d
 ---
 
 
-##If you rather have the code to copy and paste into your own script, the code is here below:
+## If you rather have the code to copy and paste into your own script, the code is here below:
 
 #IfWinActive ahk_class MozillaWindowClass
 
