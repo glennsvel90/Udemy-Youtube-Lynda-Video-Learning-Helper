@@ -17,6 +17,11 @@ While in udemy.com with the Mozilla Firefox browswer, open a course and begin ab
 * To skip 15 seconds ahead, type: f
 * To go back 15 seconds, type: d
 
+## Dependencies
+
+* Microsoft Windows
+* Mozilla Firefox browser
+
 
 
 
@@ -37,6 +42,7 @@ d::Left
 f::Right
 
 #IfWinActive
+
 
 
 
