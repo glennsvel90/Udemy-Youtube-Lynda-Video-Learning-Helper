@@ -1,6 +1,6 @@
-# Udemy-Video-Learning-Helper
+# Udemy-Youtube-Lynda-Video-Learning-Helper
 
-Helps you to acquire skills from Udemy educational videos more efficiently using simple keystrokes for speed and skip buttons.
+Helps you to acquire skills from Udemy, youtube, and Lynda educational videos more efficiently using simple keystrokes for speed and skip buttons.
 
 This code is only compatible for the Mozilla Firefox browser at the moment.
 
@@ -26,6 +26,25 @@ While in udemy.com with the Mozilla Firefox browswer, open a course and begin ab
 
 
 ## If you rather have the code to copy and paste into your own script, the code is here below:
+
+
+#If YouTubeHtml5Active()
+    e::
+	send, {shift down}{<}{shift up} 
+Return
+    r::
+	send, {shift down}{>}{shift up} 
+Return
+#If
+
+YouTubeHtml5Active() {
+    tmmBackup := A_TitleMatchMode 
+    SetTitleMatchMode, RegEx
+    youtubeVideoAvtive := WinActive(".+ \- YouTube \- Mozilla Firefox")
+    SetTitleMatchMode, %tmmBackup%
+    If youtubeVideoAvtive
+        Return True
+}
 
 #IfWinActive ahk_class MozillaWindowClass
 
