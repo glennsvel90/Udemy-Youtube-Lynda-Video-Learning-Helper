@@ -16,6 +16,13 @@ While in udemy.com with the Mozilla Firefox browswer, open a course and begin ab
 * To slow down the video, type: e
 * To skip 15 seconds ahead, type: f
 * To go back 15 seconds, type: d
+* To suspend the program, type: ctrl + alt + s   
+
+Note: The suspend hot keyboard shortcut only works if you change line 50 of the udemy.ahk file located in this repository. Change the line where it says
+```
+C:\Users\User\Desktop\udemy.ahk
+```
+to a new file path location where the udemy.ahk is located in your own system. The above file path location is unique for my own system.
 
 ## Dependencies
 
