@@ -4,6 +4,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
+suspend, on
+
 #If YouTubeHtml5Active()
     e::
 	send, {shift down}{<}{shift up} 
@@ -22,6 +24,23 @@ YouTubeHtml5Active() {
         Return True
 }
 
+#IfWinActive ahk_class Chrome_WidgetWin_1
+
+e::
+  send, {shift down}{<}{shift up}
+Return
+
+r::
+  send, {shift down}{>}{shift up}
+Return
+
+d::Left
+
+f::Right
+
+#IfWinActive
+
+
 #IfWinActive ahk_class MozillaWindowClass
 
 e::
@@ -37,7 +56,6 @@ d::Left
 f::Right
 
 #IfWinActive
-
 
 ^!s::Suspend  ; Assign the toggle-suspend function to a hotkey.
 
