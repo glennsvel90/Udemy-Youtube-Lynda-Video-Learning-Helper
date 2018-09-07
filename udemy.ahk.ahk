@@ -4,8 +4,11 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
+<<<<<<< HEAD
 #MaxHotkeysPerInterval 200
 
+=======
+>>>>>>> 8dcc4818232c1b27dba68942f587c62aa60aa6f8
 suspend, on
 
 #If YouTubeHtml5Active()
@@ -26,7 +29,10 @@ YouTubeHtml5Active() {
         Return True
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8dcc4818232c1b27dba68942f587c62aa60aa6f8
 #IfWinActive ahk_class Chrome_WidgetWin_1
 
 e::
@@ -44,7 +50,10 @@ f::Right
 #IfWinActive
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8dcc4818232c1b27dba68942f587c62aa60aa6f8
 #IfWinActive ahk_class MozillaWindowClass
 
 e::
@@ -61,6 +70,7 @@ f::Right
 
 #IfWinActive
 
+<<<<<<< HEAD
 
 
 
@@ -92,6 +102,8 @@ f::Right
 
 
 
+=======
+>>>>>>> 8dcc4818232c1b27dba68942f587c62aa60aa6f8
 ^!s::Suspend  ; Assign the toggle-suspend function to a hotkey.
 
 ; Send a Suspend command to another script.
@@ -100,6 +112,7 @@ WM_COMMAND := 0x111
 ID_FILE_SUSPEND := 65404
 
 ;Change the below complete path of the file locaiton of udemy.ahk to the location where it is located on your system
+<<<<<<< HEAD
 PostMessage, WM_COMMAND, ID_FILE_SUSPEND,,, C:\Users\user1\Desktop\udemy.ahk ahk_class AutoHotkey
 
 
@@ -115,5 +128,8 @@ WheelDown:: return
 
 
 
+=======
+PostMessage, WM_COMMAND, ID_FILE_SUSPEND,,, C:\Users\User\Desktop\udemy.ahk ahk_class AutoHotkey
+>>>>>>> 8dcc4818232c1b27dba68942f587c62aa60aa6f8
 
 
