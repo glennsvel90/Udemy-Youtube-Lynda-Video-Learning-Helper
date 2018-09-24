@@ -1,6 +1,6 @@
 # Udemy-Youtube-Lynda-Video-Learning-Helper
 
-Helps you to efficiently acquire skills from Udemy, Youtube, and Lynda educational videos using simple keystrokes for speed and skip buttons.
+Helps you to efficiently acquire skills from Udemy, Youtube, Lynda educational videos and the Audible desktop program using simple keystrokes for speed and skip buttons.
 
 
 Uses the AutoHotKey open-source software for Windows to simplify browser multi-button video-skip and speed-up keyboard shortcuts. A smaller number of buttons can now be used to do these video-viewing functions. 
@@ -11,10 +11,10 @@ Attached to the repository is the AutoHotKey mother program that should be insta
 
 ## The shortcut keys:
 
-While watching educational videos online: 
+While watching educational videos online and/or acquiring knowledge from Audible self-development books: 
 
-* To speed up the video faster, type: r
-* To slow down the video, type: e
+* To speed up the video/audio faster, type: r
+* To slow down the video/audio, type: e
 * To skip 10 seconds ahead, type: f
 * To go back 10 seconds, type: d
 * To suspend the above keyboard shortcuts, type: ctrl + alt + s   
@@ -25,7 +25,11 @@ C:\Users\User\Desktop\udemy.ahk
 ```
 to a new file path location where the udemy.ahk is located in your own system. The above file path location is unique for my own system.
 
+Note: Change the x and y coordinates mouse position of your Audible screen buttons when the window is maximized. Go to the udemy.ahk file and change the three or four digit coordinates. Use the AutoHotkey Active Window Info(Window Spy) program to see the coordinates next to  "Relative:"
+
 ## Dependencies
 
 * Microsoft Windows 10
 * Mozilla Firefox or Google Chrome Web Browser
+* Audible Desktop (This is only needed if accessing the Audible keyboard shortcuts)
+
