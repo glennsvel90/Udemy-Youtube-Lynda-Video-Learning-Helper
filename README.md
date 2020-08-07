@@ -1,4 +1,4 @@
-# Udemy-Youtube-Lynda-Video-Learning-Helper
+# Udemy-Youtube-Lynda-Video-Learning-Helper plus Handy AutoCorrect
 
 Helps you to efficiently acquire skills from Udemy, Youtube, Lynda educational videos and the Audible desktop program using simple keystrokes for speed and skip buttons.
 
