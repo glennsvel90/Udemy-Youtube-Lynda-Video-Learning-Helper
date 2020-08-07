@@ -13,23 +13,15 @@ Attached to the repository is the AutoHotKey mother program that should be insta
 
 While watching educational videos online and/or acquiring knowledge from Audible self-development books: 
 
-* To speed up the video/audio faster, type: r
-* To slow down the video/audio, type: e
-* To skip 10 seconds ahead, type: f
-* To go back 10 seconds, type: d
-* To suspend the above keyboard shortcuts, type: ctrl + alt + s   
-
-Note: The Suspend hotkey (ctrl + alt + s) only works if you change line 50 your downloaded/cloned version of the udemy.ahk file located in this repository. Change the line where it says
-```
-C:\Users\User\Desktop\udemy.ahk
-```
-to a new file path location where the udemy.ahk is located in your own system. The above file path location is unique for my own system.
-
-Note: Change the x and y coordinates mouse position of your Audible screen buttons when the window is maximized. Go to the udemy.ahk file and change the three or four digit coordinates. Use the AutoHotkey Active Window Info(Window Spy) program to see the coordinates next to  "Relative:"
+* To speed up the video/audio faster, type: y
+* To slow down the video/audio, type: t
+* To skip 10 seconds ahead, type: h
+* To go back 10 seconds, type: g
+   
 
 ## Dependencies
 
 * Microsoft Windows 10
 * Mozilla Firefox or Google Chrome Web Browser
-* Audible Desktop (This is only needed if accessing the Audible keyboard shortcuts)
+
 
